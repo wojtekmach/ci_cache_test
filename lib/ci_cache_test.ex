@@ -1,3 +1,3 @@
 defmodule CiCacheTest do
-  # foo
+  # bar
 end
