@@ -21,7 +21,7 @@ jobs:
       - uses: actions/cache@v3
         with:
           path: _build
-          key: mix-build-${{ github.ref_name }}
+          key: mix-build-${{ github.sha }}
           restore-keys: |
             mix-build-
 
